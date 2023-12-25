@@ -6,6 +6,10 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * A class that represents a response for retrieving all country currencies.
+ * This class contains information about the currencies of all countries.
+ */
 @Data
 @Builder
 public class GetAllCountryCurrenciesResponse {

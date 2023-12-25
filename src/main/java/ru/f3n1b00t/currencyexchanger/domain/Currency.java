@@ -3,6 +3,10 @@ package ru.f3n1b00t.currencyexchanger.domain;
 import jakarta.persistence.*;
 import lombok.Data;
 
+/**
+ * A class that represents a currency.
+ * This class provides properties and methods for working with currencies.
+ */
 @Data
 @Entity
 @Table(name = "currency")

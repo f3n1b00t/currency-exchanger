@@ -12,6 +12,10 @@ import ru.f3n1b00t.currencyexchanger.dto.response.GetCurrencyPairsResponse;
 import ru.f3n1b00t.currencyexchanger.service.CurrencyExchangeService;
 import ru.f3n1b00t.currencyexchanger.service.CurrencyService;
 
+/**
+ * A class that represents a currency controller.
+ * This class handles requests related to currency operations.
+ */
 @RestController
 @RequestMapping("/v1/currency")
 public class CurrencyController {

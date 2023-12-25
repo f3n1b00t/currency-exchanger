@@ -6,6 +6,10 @@ import lombok.Builder;
 import lombok.Data;
 import ru.f3n1b00t.currencyexchanger.validation.CurrencySymbol;
 
+/**
+ * A class that represents a request to exchange currencies.
+ * This class contains information about the currencies to be exchanged and the desired exchange rate.
+ */
 @Data
 @Builder
 public class ExchangeCurrencyRequest {

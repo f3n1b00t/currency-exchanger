@@ -9,6 +9,10 @@ import ru.f3n1b00t.currencyexchanger.repository.CurrencyRepository;
 
 import java.util.List;
 
+/**
+ * A class that provides currency-related operations and services.
+ * This class contains methods for managing currencies, such as retrieving currency information, performing currency conversions, and updating currency rates.
+ */
 @Service
 public class CurrencyService {
     private final CurrencyMapper currencyMapper;

@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
 
+/**
+ * A class that represents a response for currency exchange.
+ */
 @Data
 @Builder
 public class CurrencyExchangeResponse {

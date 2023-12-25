@@ -7,6 +7,9 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+/**
+ * Aspect for logging method calls to the CurrencyClient class.
+ */
 @Aspect
 @Slf4j
 @Component

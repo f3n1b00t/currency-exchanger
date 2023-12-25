@@ -7,6 +7,10 @@ import ru.f3n1b00t.currencyexchanger.client.CurrencyClient;
 
 import java.util.List;
 
+/**
+ * A class that fetches currency data from an external API.
+ * This class provides methods for retrieving currency data from an external API and updating the local currency database.
+ */
 @Service
 public class CurrencyFetcherService {
     private final CurrencyClient currencyClient;

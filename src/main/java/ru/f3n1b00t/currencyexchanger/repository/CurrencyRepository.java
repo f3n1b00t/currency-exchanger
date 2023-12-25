@@ -8,6 +8,10 @@ import ru.f3n1b00t.currencyexchanger.domain.Currency;
 
 import java.util.List;
 
+/**
+ * A class that represents a repository for managing currency data.
+ * This class provides methods for accessing and manipulating currency data in a data source.
+ */
 @Repository
 public interface CurrencyRepository extends JpaRepository<Currency, Long> {
     @Query("select c from Currency c where c.symbol <> :symbol")

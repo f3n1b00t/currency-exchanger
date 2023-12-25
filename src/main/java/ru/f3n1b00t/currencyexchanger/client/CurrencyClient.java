@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import ru.f3n1b00t.currencyexchanger.dto.response.CurrencyExchangeResponse;
 import ru.f3n1b00t.currencyexchanger.dto.response.GetAllCountryCurrenciesResponse;
 
+/**
+ * A class that represents a currency client.
+ * This class provides methods for interacting with a currency service.
+ */
 @Component
 @FeignClient(name = "currencies", url = "https://v6.exchangerate-api.com/v6/cfcbd38cc419be7d3e611ef9")
 public interface CurrencyClient {

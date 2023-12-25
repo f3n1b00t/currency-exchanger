@@ -4,6 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.f3n1b00t.currencyexchanger.client.CurrencyClient;
 
+/**
+ * A class that provides currency exchange functionality.
+ * This class contains methods for performing currency exchange operations, such as converting between different currencies.
+ */
 @Service
 public class CurrencyExchangeService {
     private final CurrencyClient currencyClient;
